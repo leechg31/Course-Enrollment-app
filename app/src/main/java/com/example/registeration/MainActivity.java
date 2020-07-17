@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onPreExecute() {
-            target = "http://leechg11.dothome.co.kr/NoticeList.php";
+            target = "php 링크";
         }
 
 
