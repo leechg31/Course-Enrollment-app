@@ -173,7 +173,7 @@ public class ScheduleFragment extends Fragment {
         @Override
         protected void onPreExecute() {
             try {
-                target = "http://leechg11.dothome.co.kr/ScheduleList.php?userID=" + URLEncoder.encode(MainActivity.userID, "UTF-8");
+                target = "php 링크 ?userID=" + URLEncoder.encode(MainActivity.userID, "UTF-8");
             } catch (Exception e) {
                 e.printStackTrace();
             }
